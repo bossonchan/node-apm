@@ -1,0 +1,21 @@
+#main {
+  display: block;
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#requests {
+  display: block;
+  width: 300px;
+  margin: 0 auto;
+}
+
+#serverInfo {
+  display: block;
+}
+
+#serverInfo div {
+  display: inline-block;
+  margin: 0 20px;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <title>Metrics</title>
+  <link href="/style.css" rel="stylesheet" />
+  <script src="/Chart.min.js" ></script>
+  <script src="/zepto.js" ></script>
+</head>
+<body>
+  <div id="main">
+    <div id="requests">
+      <h2>Server Execute Time(ms)</h2>
+      <canvas height="180px" width="300px" ></canvas>
+    </div>
+
+    <div id="serverInfo">
+      <div id="cpu">
+        <h2>CPU Usage(%)</h2>
+        <canvas height="180px" width="300px" ></canvas>
+      </div>
+
+      <div id="memory">
+        <h2>Memory Usage(%)</h2>
+        <canvas height="180px" width="300px" ></canvas>
+      </div>
+    </div>
+  </div>
+
+  <script src="/drawChart.js" ></script>
+</body>
+</html>

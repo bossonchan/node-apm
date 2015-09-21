@@ -1,0 +1,19 @@
+{
+  "name": "node-apm",
+  "version": "0.0.1",
+  "description": "## Introduction",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bossonchan/node-apm.git"
+  },
+  "author": "bossonchan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bossonchan/node-apm/issues"
+  },
+  "homepage": "https://github.com/bossonchan/node-apm#readme"
+}
