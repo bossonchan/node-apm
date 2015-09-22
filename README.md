@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This project is using the knowledge, which is from dell's IT Management lesson in SYSU, to build the application monitor for nodejs web application.
+This project is using the knowledge, which is from lesson of Dell's IT Management in SYSU, to build the application monitor for nodejs web application.
 
 It's a demo, *DO NOT* use it on any production environment.
 
@@ -12,7 +12,7 @@ It's a demo, *DO NOT* use it on any production environment.
 2. We cannot monitor the database queries, because of no common database interface supported for nodejs. :(
 3. Nodejs offers non-blocked, asynchronous apis, so we should record some monitor data in callback function.
 
-## Monitoring Arhitecture
+## Monitoring Architecture
 
 ```
                     1. send request
